@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import Button from "@mui/material/Button";
+import { TextField } from "@mui/material";
 
 import { increment, decrement } from "./counterSlice";
 
@@ -17,6 +18,7 @@ export const Counter = () => {
         <Button variant="contained" onClick={() => dispatch(decrement())}>
           -
         </Button>
+        <TextField label="Enter something" />
       </div>
     </>
   );

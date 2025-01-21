@@ -8,20 +8,11 @@ import { Profile } from "./features/fill-form/Profile";
 import { VerifyAadhar } from "./features/fill-form/VerifyAadhar";
 import { EmploymentDetails } from "./features/fill-form/EmploymentDetails";
 import { BusinessDetails } from "./features/fill-form/BusinessDetails";
-
 import { EligibilityCibilScore } from "./features/fill-form/EligibilityCibilScore";
 
-import { route } from "./constants/route";
+import { Layout } from "./components/Layout";
 
-const Layout = () => {
-  return (
-    <>
-      <main className="App">
-        <Outlet />
-      </main>
-    </>
-  );
-};
+import { route } from "./constants/route";
 
 function App() {
   const {
