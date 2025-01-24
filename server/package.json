@@ -1,0 +1,18 @@
+{
+  "name": "express-api-example",
+  "version": "1.0.0",
+  "description": "A simple Express.js API with a POST example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
