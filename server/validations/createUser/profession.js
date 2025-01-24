@@ -40,7 +40,9 @@ const validateProfession = (req, res, next) => {
           error: INVALID_BUSINESSORSELFEMPLOYED_OBJECT_ALL_FIELDS_ARE_MANDATORY,
         });
       }
-    }
+    } console.log(
+      `Invalid profession passed. Kindly pass ${BUSINESS_OR_SELF_EMPLOYED} or ${EMPLOYED}`
+    );
   } else {
     console.log(
       `This validation will run only on ${EMPLOYED} or ${BUSINESS_OR_SELF_EMPLOYED}`
